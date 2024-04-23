@@ -1,0 +1,8 @@
+Django==5.0.4
+djangorestframework==3.15.1
+django-rest-framework-nested==0.0.1
+mysqlclient==2.2.4
+django-channels==0.7.0
+channels==4.1.0
+daphne==4.1.2
+channels-redis==4.2.0
