@@ -3,10 +3,10 @@ from django.contrib.auth.models import User
 
 # The group that have the chats
 class ChatGroup(models.Model):
-    goup_name = models.CharField(max_length=128 , unique= True)
+    group_name = models.CharField(max_length=128 , unique = True)
     
     def __str__(self):
-        return self.goup_name
+        return self.group_name
 
 #into each chat
 class ChatMessage(models.Model):
