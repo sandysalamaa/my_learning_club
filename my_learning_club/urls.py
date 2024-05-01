@@ -1,5 +1,5 @@
 """
-URL configuration for my_learing_club project.
+URL configuration for my_learning_club project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,11 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-
+# from chat import routing
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('actions.urls')),
-    # path('', include('chat.urls'))
+  
     
 ]
