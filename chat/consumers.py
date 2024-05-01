@@ -55,6 +55,6 @@ class ChatConcumer(WebsocketConsumer):
                          
     #3
     def disconnect(self, closecode):
-        return super().disconnect(closecode)
+        return super().disconnect(closecode )
     
     
