@@ -139,7 +139,7 @@ class ProductViewSet(ModelViewSet):
 
 # @api_view(['GET'])
 # def get_product(request,pk):
-#     product = Product.get_object_or_404(Product,pk=pk)
+#     product = get_object_or_404(Product,pk=pk)
 #     serializer = ProductSerializer(product)
 #     return Response(serializer.data ,status = status.HTTP_200_OK)
 
